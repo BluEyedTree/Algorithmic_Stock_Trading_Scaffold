@@ -1,3 +1,3 @@
 A simple scaffolding meant to be built up to test automated trading algorithms. It allows for obtaining current stock information using the Yahoo Finance api (https://pypi.python.org/pypi/yahoo-finance).
 
-The bank roll variable is the amount of money you start with. Whenever a stock is bought or sold the appropriate number of shares will be placed in a dictionary, where the stock ticker is the key and the number of shares owned is the value. This is designed so no illegal actions can be taken, such as buying more stocks than you have money for. 
+The bank roll variable is the amount of money you start with. Whenever a stock is bought or sold the appropriate number of shares will be placed in the stocks_owned dictionary, where the stock ticker is the key and the number of shares owned is the value. This is designed so no illegal actions can be taken, such as buying more stocks than you have money for. 
